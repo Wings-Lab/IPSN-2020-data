@@ -1,0 +1,1 @@
+idw: exponent = 2, neighbot <= 3

@@ -1,0 +1,26 @@
+IDW exponent = 1
+average error = 1.76168949512, average abs error = 2.60204044789, std = 2.64344831369
+
+IDW exponent = 2
+average error = 1.64922438151, average abs error = 2.52352629505, std = 2.64811150507
+
+==
+
+inverse "log10 distance difference" weight + idw
+average error = 1.00420504577, average abs error = 2.01403584498, std = 2.26921585336
+
+==
+
+inverse "log10 distance difference" weight
+
+when dist == 0 --> 0.25
+average error = 0.359185710031, average abs error = 1.72090740815, std = 2.09407823225
+
+when dist == 0 --> 0.2
+average error = 0.257371892652, average abs error = 1.69498762351, std = 2.07947813513
+
+when dist == 0 --> 0.15
+average error = 0.155890175859, average abs error = 1.67277671862, std = 2.07189179006
+
+when dist == 0 --> 0.1
+average error = 0.0500797245884, average abs error = 1.66396163972, std = 2.07140198729
